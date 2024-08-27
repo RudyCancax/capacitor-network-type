@@ -1,6 +1,6 @@
 {
   "name": "cap-network-type",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Returns to user, the internet connection type (5G, 4G, etc)",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -8,6 +8,7 @@
   "unpkg": "dist/plugin.js",
   "files": [
     "dist/",
+    "android/",
     "README.md",
     "LICENSE"
   ],
