@@ -5,7 +5,7 @@ Returns to user, the internet connection type (5G, 4G, etc)
 ## Install
 
 ```bash
-npm install network-type
+npm install cap-network-type
 npx cap sync
 ```
 
