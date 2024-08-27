@@ -1,19 +1,15 @@
 {
-  "name": "network-type",
-  "version": "0.0.1",
+  "name": "cap-network-type",
+  "version": "0.0.2",
   "description": "Returns to user, the internet connection type (5G, 4G, etc)",
-  "main": "dist/plugin.cjs.js",
+  "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "unpkg": "dist/plugin.js",
   "files": [
-    "android/src/main/",
-    "android/build.gradle",
     "dist/",
-    "ios/Sources",
-    "ios/Tests",
-    "Package.swift",
-    "NetworkType.podspec"
+    "README.md",
+    "LICENSE"
   ],
   "author": "rcancax",
   "license": "MIT",
