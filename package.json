@@ -76,5 +76,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "dependencies": {
+    "@types/semver": "^7.5.8"
   }
 }

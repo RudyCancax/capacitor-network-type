@@ -1,3 +1,6 @@
+// export interface NetworkTypePlugin {
+//   echo(options: { value: string }): Promise<{ value: string }>;
+// }
 export interface NetworkTypePlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  getNetworkType(): Promise<{ networkType: string }>;
 }

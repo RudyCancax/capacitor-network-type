@@ -11,9 +11,23 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`getNetworkType()`](#getnetworktype)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### getNetworkType()
+
+```typescript
+getNetworkType() => Promise<{ networkType: string; }>
+```
+
+**Returns:** <code>Promise&lt;{ networkType: string; }&gt;</code>
+
+--------------------
+
 </docgen-api>
